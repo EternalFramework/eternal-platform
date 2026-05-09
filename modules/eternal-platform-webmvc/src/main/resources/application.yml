@@ -1,0 +1,10 @@
+server:
+  port: 25666
+spring:
+  application:
+      name: @artifactId@
+  profiles:
+    active: dev
+  threads:
+    virtual:
+      enabled: true
